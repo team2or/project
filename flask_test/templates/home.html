@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href='{{url_for('static', filename='images/insta.ico')}}'>
+    <title>Instagram Analysis Service</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/socket.io/1.4.8/socket.io.min.js"></script>
+    <script>
+      var host_url = '{{ host_url }}';
+    </script>
+  </head>
+  <body>
+    <main role="main">
+
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron", style="background-color: floralwhite;">
+        <div class="container" style="text-align: center;">
+          <h1 class="display-3"><img src="static/images/insta_log.png" alt="insta_log" style="width: 500px;"></h1>
+          <br>
+	          <p>  
+              ** SNS에서 대표적인 인스타그램의 정보를 활용하여 기계독해(MRC)를 활용한<br>텍스트에 대한 질의응답과
+              개체명 인식(NER)을 활용한 그래프를 나타냈습니다. **
+            </p>
+        </div>
+      </div>
+
+      <div class="container">
+        <!-- Example row of columns -->
+        <div class="row" style="display: flex; justify-content: center;">
+          <div class="col-md-3">
+            <a href="#" onclick="location.href=host_url+'mrc'; return false;"><img style="width: 265px; height: 260px;" src='{{ url_for('static', filename='images/mrc_normal.png') }}' onmouseover="this.src='{{ url_for('static', filename='images/mrc_on.png') }}';" onmouseout="this.src='{{ url_for('static', filename='images/mrc_normal.png') }}';" /></a>
+          </div>
+          <div class="col-md-3">
+            <a href="#" onclick="location.href=host_url+'ner'; return false;"><img style="width: 265px; height: 260px;" src='{{ url_for('static', filename='images/ner_normal.png') }}' onmouseover="this.src='{{ url_for('static', filename='images/ner_on.png') }}';" onmouseout="this.src='{{ url_for('static', filename='images/ner_normal.png') }}';" /></a></div>
+          <div class="col-md-3">
+            <a href="#" onclick="location.href=host_url+'mtc'; return false;"><img style="width: 265px; height: 260px;" src='{{ url_for('static', filename='images/mtc_normal.png') }}' onmouseover="this.src='{{ url_for('static', filename='images/mtc_on.png') }}';" onmouseout="this.src='{{ url_for('static', filename='images/mtc_normal.png') }}';" /></a></div>
+        </div>
+
+      </div> <!-- /container -->
+      <hr class="container">
+    </main>
+    
+    <footer class="container" style="text-align: center;">
+	    <p>&copy;HDMD Ai & TwoBlock Ai. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
+

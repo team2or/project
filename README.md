@@ -9,6 +9,9 @@
 * 터미널에 python app.py 입력 => 연결 링크 클릭하면 구동
 ![image](https://user-images.githubusercontent.com/89976847/148491388-26d2794f-dae6-49c6-a59c-784fd5bef5bd.png)
 
+
+## 실행화면 예시
+
 1.네이버 크롤링
 
 

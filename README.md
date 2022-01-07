@@ -36,20 +36,20 @@
 
 
 
-4.Hanbert이용 웹페이지화
-- main page
+5.Hanbert이용 웹페이지화
+6.Main Page
 
 ![image](https://user-images.githubusercontent.com/89976847/148376419-36e6892b-83f6-4b23-aa6d-fd93015df8ef.png)
 
-- mrc데모 page
+7.MRC 데모 page
 
 ![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/89976847/148490818-c0f45e7e-5be3-4ba7-a811-3c0ac381737a.gif)
 
-- ner이용 그래프 구현 page
+8.NER이용 그래프 구현 page
 
 ![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/89976847/148490824-f88e116a-a4b7-4323-b1fa-6953e5fe9712.gif)
 
-- LSTM이용 다중분류 page
+9.LSTM이용 다중분류 page
 
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/89976847/148490827-a532f37e-0b2e-4398-a950-868e5aa1f586.gif)
 

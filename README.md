@@ -1,3 +1,14 @@
+## project_flask - 구동방법
+
+### 실행을 위한 파일
+* project_flask 폴더
+
+### 실행방법
+* 비주얼스튜디오코드 등 프로그램에서 project_flask폴더 열기
+* 터미널에 Scripts\activate 입력 => flask 가상환경 실행
+* 터미널에 python app.py 입력 => 연결 링크 클릭하면 구동
+![image](https://user-images.githubusercontent.com/89976847/148491388-26d2794f-dae6-49c6-a59c-784fd5bef5bd.png)
+
 1.네이버 크롤링
 
 

@@ -1,4 +1,4 @@
-## project_flask - 구동방법
+## Project_flask - 구동방법
 
 ### 실행을 위한 파일
 * project_flask 폴더

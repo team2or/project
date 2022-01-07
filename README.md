@@ -29,16 +29,14 @@
 
 - mrc데모 page
 
-![image](https://user-images.githubusercontent.com/89976847/148376021-ff3be867-3972-443d-93ff-f25260f7a600.png)
+![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/89976847/148490818-c0f45e7e-5be3-4ba7-a811-3c0ac381737a.gif)
 
 - ner이용 그래프 구현 page
 
-![image](https://user-images.githubusercontent.com/89976847/148376038-911c0049-ccc4-4826-a357-e8e5891fd534.png)
-![image](https://user-images.githubusercontent.com/89976847/148376045-f99e391a-06f7-4a75-be4f-cdce0a885535.png)
-![image](https://user-images.githubusercontent.com/89976847/148376062-ad79a01e-949b-477b-b70b-2d6d32aad4e0.png)
+![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/89976847/148490824-f88e116a-a4b7-4323-b1fa-6953e5fe9712.gif)
 
 - LSTM이용 다중분류 page
 
-![image](https://user-images.githubusercontent.com/89976847/148376245-86363270-8ecc-42a7-83bb-0ce91a3284bd.png)
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/89976847/148490827-a532f37e-0b2e-4398-a950-868e5aa1f586.gif)
 
 
